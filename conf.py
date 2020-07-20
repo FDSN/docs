@@ -21,8 +21,13 @@ project = 'FDSN Documentation'
 copyright = '2020, FDSN'
 author = 'FDSN'
 
+# The full version, including alpha/beta/rc tags
+release = '0.0.0'
 
 # -- General configuration ---------------------------------------------------
+
+# Default in Sphinx 2, but not in older versions
+master_doc = 'index'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -51,6 +56,10 @@ html_theme_options = {
     'sticky_navigation': False,
 }
 html_logo='_static/fdsn-logo.png'
+
+html_favicon = '_static/favicon.ico'
+html_title = 'Specification'
+html_search_language = 'en'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
