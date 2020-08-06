@@ -13,12 +13,13 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+import sphinx_rtd_theme
 
 
 # -- Project information -----------------------------------------------------
 
 project = 'FDSN Documentation'
-copyright = '2020, FDSN'
+copyright = '2020, International FDSN'
 author = 'FDSN'
 
 # The full version, including alpha/beta/rc tags
@@ -33,6 +34,7 @@ master_doc = 'index'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+  "sphinx_rtd_theme"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -46,20 +48,19 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output -------------------------------------------------
 
+def setup(app):
+    app.add_css_file('css/custom.css')
+
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
-html_theme_options = {
-    'navigation_depth': 0,
-    'sticky_navigation': False,
-}
-html_logo='_static/fdsn-logo.png'
-
+html_logo='_static/FDSN-logo.png'
 html_favicon = '_static/favicon.ico'
-html_title = 'Specification'
-html_search_language = 'en'
+html_title = 'FDSN Documentation'
+html_show_sphinx = False
+#html_search_language = 'en'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

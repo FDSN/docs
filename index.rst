@@ -1,9 +1,6 @@
-.. FDSN Documentation documentation master file, created by
-   sphinx-quickstart on Mon Jul 20 15:02:00 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. FDSN Documentation documentation master file
 
-Welcome to the FDSN's documentation
+Documentation
 ===================================
 
 The `International Federation of Digital Seismograph Networks
@@ -15,4 +12,8 @@ at https://www.fdsn.org/publications/.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Projects:
+
+   StationXML <https://docs.fdsn.org/projects/stationxml/>
+
+   FDSN home <https://www.fdsn.org/>
