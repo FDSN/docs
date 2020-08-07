@@ -55,6 +55,10 @@ def setup(app):
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
+html_theme_options = {
+    'logo_only': True,
+    'display_version': False,
+}
 
 html_logo='_static/FDSN-logo.png'
 html_favicon = '_static/favicon.ico'
