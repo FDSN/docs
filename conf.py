@@ -70,5 +70,5 @@ html_search_language = 'en'
 html_static_path = ['_static']
 
 html_css_files = [
-  'css/custom.css',
+  'css/fdsn_rtd_theme.css',
 ]
