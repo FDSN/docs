@@ -11,6 +11,11 @@ body {
   background: white;
 }
 
+.wy-menu-vertical header,
+.wy-menu-vertical p.caption {
+  color: white;
+}
+
 .wy-menu-vertical a {
   color: white;
   font-weight: bold;
