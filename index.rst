@@ -12,7 +12,7 @@ at https://www.fdsn.org/publications/.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Projects:
+   :caption: Projects
 
    StationXML <https://docs.fdsn.org/projects/stationxml/>
 
