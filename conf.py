@@ -60,7 +60,7 @@ html_logo='_static/FDSN-logo.png'
 html_favicon = '_static/favicon.ico'
 html_title = 'FDSN Documentation'
 html_show_sphinx = False
-#html_search_language = 'en'
+html_search_language = 'en'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
