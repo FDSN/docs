@@ -16,4 +16,6 @@ at https://www.fdsn.org/publications/.
 
    StationXML <https://docs.fdsn.org/projects/stationxml/>
 
+   Source Identifiers <https://docs.fdsn.org/projects/source-identifiers/>
+
    FDSN home <https://www.fdsn.org/>
