@@ -18,4 +18,6 @@ at https://www.fdsn.org/publications/.
 
    Source Identifiers <https://docs.fdsn.org/projects/source-identifiers/>
 
+   miniSEED 3 <https://docs.fdsn.org/projects/miniseed3/>
+
    FDSN home <https://www.fdsn.org/>
