@@ -20,4 +20,6 @@ at https://www.fdsn.org/publications/.
 
    miniSEED 3 <https://docs.fdsn.org/projects/miniseed3/>
 
+   SeedLink <https://docs.fdsn.org/projects/seedlink/>
+
    FDSN home <https://www.fdsn.org/>

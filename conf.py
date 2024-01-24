@@ -19,7 +19,7 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'FDSN Documentation'
-copyright = '2020, International FDSN'
+copyright = '2024, International FDSN'
 author = 'FDSN'
 
 # The full version, including alpha/beta/rc tags
